@@ -1,0 +1,8 @@
+G:\TyrianZone\SZone\ChangeFileName\ChangeFileName\bin\Debug\ChangeFileName.exe
+G:\TyrianZone\SZone\ChangeFileName\ChangeFileName\bin\Debug\ChangeFileName.pdb
+G:\TyrianZone\SZone\ChangeFileName\ChangeFileName\obj\Debug\ResolveAssemblyReference.cache
+G:\TyrianZone\SZone\ChangeFileName\ChangeFileName\obj\Debug\ChangeFileName.Properties.Resources.resources
+G:\TyrianZone\SZone\ChangeFileName\ChangeFileName\obj\Debug\ChangeFileName.csproj.GenerateResource.Cache
+G:\TyrianZone\SZone\ChangeFileName\ChangeFileName\obj\Debug\ChangeFileName.exe
+G:\TyrianZone\SZone\ChangeFileName\ChangeFileName\obj\Debug\ChangeFileName.pdb
+G:\TyrianZone\SZone\ChangeFileName\ChangeFileName\obj\Debug\ChangeFileName.Form1.resources

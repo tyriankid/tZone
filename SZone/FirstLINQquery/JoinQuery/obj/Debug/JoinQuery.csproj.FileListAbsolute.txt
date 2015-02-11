@@ -1,0 +1,7 @@
+G:\SZone\FirstLINQquery\JoinQuery\bin\Debug\JoinQuery.exe
+G:\SZone\FirstLINQquery\JoinQuery\bin\Debug\JoinQuery.pdb
+G:\SZone\FirstLINQquery\JoinQuery\obj\Debug\ResolveAssemblyReference.cache
+G:\SZone\FirstLINQquery\JoinQuery\obj\Debug\JoinQuery.exe
+G:\SZone\FirstLINQquery\JoinQuery\obj\Debug\JoinQuery.pdb
+G:\TyrianZone\SZone\FirstLINQquery\JoinQuery\obj\Debug\JoinQuery.exe
+G:\TyrianZone\SZone\FirstLINQquery\JoinQuery\obj\Debug\JoinQuery.pdb

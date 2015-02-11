@@ -1,0 +1,5 @@
+G:\SZone\FirstLINQquery\TakeAndSkip\bin\Debug\TakeAndSkip.exe
+G:\SZone\FirstLINQquery\TakeAndSkip\bin\Debug\TakeAndSkip.pdb
+G:\SZone\FirstLINQquery\TakeAndSkip\obj\Debug\ResolveAssemblyReference.cache
+G:\SZone\FirstLINQquery\TakeAndSkip\obj\Debug\TakeAndSkip.exe
+G:\SZone\FirstLINQquery\TakeAndSkip\obj\Debug\TakeAndSkip.pdb

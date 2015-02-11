@@ -1,0 +1,5 @@
+G:\TyrianZone\SZone\Chapter28\Ado.Net\DeletingData\DeletingData\bin\Debug\DeletingData.exe
+G:\TyrianZone\SZone\Chapter28\Ado.Net\DeletingData\DeletingData\bin\Debug\DeletingData.pdb
+G:\TyrianZone\SZone\Chapter28\Ado.Net\DeletingData\DeletingData\obj\Debug\ResolveAssemblyReference.cache
+G:\TyrianZone\SZone\Chapter28\Ado.Net\DeletingData\DeletingData\obj\Debug\DeletingData.exe
+G:\TyrianZone\SZone\Chapter28\Ado.Net\DeletingData\DeletingData\obj\Debug\DeletingData.pdb

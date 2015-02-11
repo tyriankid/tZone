@@ -1,0 +1,5 @@
+G:\SZone\FirstLINQquery\LargeNumberQuery\bin\Debug\LargeNumberQuery.exe
+G:\SZone\FirstLINQquery\LargeNumberQuery\bin\Debug\LargeNumberQuery.pdb
+G:\SZone\FirstLINQquery\LargeNumberQuery\obj\Debug\ResolveAssemblyReference.cache
+G:\SZone\FirstLINQquery\LargeNumberQuery\obj\Debug\LargeNumberQuery.exe
+G:\SZone\FirstLINQquery\LargeNumberQuery\obj\Debug\LargeNumberQuery.pdb

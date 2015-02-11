@@ -1,0 +1,5 @@
+G:\TyrianZone\SZone\Chapter28\Ado.Net\ManyRelations\ManyRelations\bin\Debug\ManyRelations.exe
+G:\TyrianZone\SZone\Chapter28\Ado.Net\ManyRelations\ManyRelations\bin\Debug\ManyRelations.pdb
+G:\TyrianZone\SZone\Chapter28\Ado.Net\ManyRelations\ManyRelations\obj\Debug\ResolveAssemblyReference.cache
+G:\TyrianZone\SZone\Chapter28\Ado.Net\ManyRelations\ManyRelations\obj\Debug\ManyRelations.exe
+G:\TyrianZone\SZone\Chapter28\Ado.Net\ManyRelations\ManyRelations\obj\Debug\ManyRelations.pdb

@@ -1,0 +1,5 @@
+G:\TyrianZone\SZone\Temp\NumsToCash\NumsToCash\bin\Debug\NumsToCash.exe
+G:\TyrianZone\SZone\Temp\NumsToCash\NumsToCash\bin\Debug\NumsToCash.pdb
+G:\TyrianZone\SZone\Temp\NumsToCash\NumsToCash\obj\Debug\ResolveAssemblyReference.cache
+G:\TyrianZone\SZone\Temp\NumsToCash\NumsToCash\obj\Debug\NumsToCash.exe
+G:\TyrianZone\SZone\Temp\NumsToCash\NumsToCash\obj\Debug\NumsToCash.pdb

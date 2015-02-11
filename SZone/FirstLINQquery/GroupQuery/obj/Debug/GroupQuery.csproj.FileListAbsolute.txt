@@ -1,0 +1,5 @@
+G:\SZone\FirstLINQquery\GroupQuery\bin\Debug\GroupQuery.exe
+G:\SZone\FirstLINQquery\GroupQuery\bin\Debug\GroupQuery.pdb
+G:\SZone\FirstLINQquery\GroupQuery\obj\Debug\ResolveAssemblyReference.cache
+G:\SZone\FirstLINQquery\GroupQuery\obj\Debug\GroupQuery.exe
+G:\SZone\FirstLINQquery\GroupQuery\obj\Debug\GroupQuery.pdb

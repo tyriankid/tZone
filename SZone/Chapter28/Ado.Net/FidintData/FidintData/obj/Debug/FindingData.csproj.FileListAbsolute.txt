@@ -1,0 +1,5 @@
+G:\TyrianZone\SZone\Chapter28\Ado.Net\FidintData\FidintData\bin\Debug\FidintData.exe
+G:\TyrianZone\SZone\Chapter28\Ado.Net\FidintData\FidintData\bin\Debug\FidintData.pdb
+G:\TyrianZone\SZone\Chapter28\Ado.Net\FidintData\FidintData\obj\Debug\ResolveAssemblyReference.cache
+G:\TyrianZone\SZone\Chapter28\Ado.Net\FidintData\FidintData\obj\Debug\FidintData.exe
+G:\TyrianZone\SZone\Chapter28\Ado.Net\FidintData\FidintData\obj\Debug\FidintData.pdb

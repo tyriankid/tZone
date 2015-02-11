@@ -1,0 +1,8 @@
+E:\MyWorking\武汉亨通\ChangesFileName\ChangesFileName\bin\Debug\ChangesFileName.exe
+E:\MyWorking\武汉亨通\ChangesFileName\ChangesFileName\bin\Debug\ChangesFileName.pdb
+E:\MyWorking\武汉亨通\ChangesFileName\ChangesFileName\obj\Debug\ChangesFileName.csprojResolveAssemblyReference.cache
+E:\MyWorking\武汉亨通\ChangesFileName\ChangesFileName\obj\Debug\ChangesFileName.Form1.resources
+E:\MyWorking\武汉亨通\ChangesFileName\ChangesFileName\obj\Debug\ChangesFileName.Properties.Resources.resources
+E:\MyWorking\武汉亨通\ChangesFileName\ChangesFileName\obj\Debug\ChangesFileName.csproj.GenerateResource.Cache
+E:\MyWorking\武汉亨通\ChangesFileName\ChangesFileName\obj\Debug\ChangesFileName.exe
+E:\MyWorking\武汉亨通\ChangesFileName\ChangesFileName\obj\Debug\ChangesFileName.pdb

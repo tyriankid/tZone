@@ -1,0 +1,5 @@
+G:\SZone\FirstLINQquery\FirstLINQquery\bin\Debug\FirstLINQquery.exe
+G:\SZone\FirstLINQquery\FirstLINQquery\bin\Debug\FirstLINQquery.pdb
+G:\SZone\FirstLINQquery\FirstLINQquery\obj\Debug\ResolveAssemblyReference.cache
+G:\SZone\FirstLINQquery\FirstLINQquery\obj\Debug\FirstLINQquery.exe
+G:\SZone\FirstLINQquery\FirstLINQquery\obj\Debug\FirstLINQquery.pdb

@@ -1,0 +1,5 @@
+G:\TyrianZone\SZone\Chapter28\Ado.Net\AddingData\AddingData\bin\Debug\AddingData.exe
+G:\TyrianZone\SZone\Chapter28\Ado.Net\AddingData\AddingData\bin\Debug\AddingData.pdb
+G:\TyrianZone\SZone\Chapter28\Ado.Net\AddingData\AddingData\obj\Debug\ResolveAssemblyReference.cache
+G:\TyrianZone\SZone\Chapter28\Ado.Net\AddingData\AddingData\obj\Debug\AddingData.exe
+G:\TyrianZone\SZone\Chapter28\Ado.Net\AddingData\AddingData\obj\Debug\AddingData.pdb

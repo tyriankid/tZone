@@ -1,0 +1,9 @@
+G:\TyrianZone\SZone\27_2LINQtoSQLDataBinding\27_2LINQtoSQLDataBinding\bin\Debug\27_2LINQtoSQLDataBinding.exe.config
+G:\TyrianZone\SZone\27_2LINQtoSQLDataBinding\27_2LINQtoSQLDataBinding\bin\Debug\27_2LINQtoSQLDataBinding.exe
+G:\TyrianZone\SZone\27_2LINQtoSQLDataBinding\27_2LINQtoSQLDataBinding\bin\Debug\27_2LINQtoSQLDataBinding.pdb
+G:\TyrianZone\SZone\27_2LINQtoSQLDataBinding\27_2LINQtoSQLDataBinding\obj\Debug\ResolveAssemblyReference.cache
+G:\TyrianZone\SZone\27_2LINQtoSQLDataBinding\27_2LINQtoSQLDataBinding\obj\Debug\_27_2LINQtoSQLDataBinding.Properties.Resources.resources
+G:\TyrianZone\SZone\27_2LINQtoSQLDataBinding\27_2LINQtoSQLDataBinding\obj\Debug\27_2LINQtoSQLDataBinding.csproj.GenerateResource.Cache
+G:\TyrianZone\SZone\27_2LINQtoSQLDataBinding\27_2LINQtoSQLDataBinding\obj\Debug\27_2LINQtoSQLDataBinding.exe
+G:\TyrianZone\SZone\27_2LINQtoSQLDataBinding\27_2LINQtoSQLDataBinding\obj\Debug\27_2LINQtoSQLDataBinding.pdb
+G:\TyrianZone\SZone\27_2LINQtoSQLDataBinding\27_2LINQtoSQLDataBinding\obj\Debug\_27_2LINQtoSQLDataBinding.Form1.resources

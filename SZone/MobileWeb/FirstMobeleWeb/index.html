@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" /> 
+		<meta name="viewport" content="width=device-width,initial-scale=1" />
+
+		<title>jQueryMobile hello World demo</title>
+		<link rel="stylesheet" href="jquery.mobile-1.4.3.min.css">
+		<script type="text/javascript" src="jquery-1.8.0.js"></script>
+		<script type="text/javascript" src="jquery.mobile-1.4.3.js"></script>
+	</head>
+	<body>
+		<section data-role="page" id="view1" data-title="第一个视图title" >
+			<header data-role="header">
+				<h1>第一个视图</h1>
+			</header>
+			<article data-role="content" data-theme="a" >
+				<a href="#view2"  data-rel="dialog" data-inline="true">采用dialog方式切换到第二个视图</a>
+				<a href="#view3" data-role="button" data-transition="pop" data-icon="delete" data-inconpos="right" data-inline="true" data-inconpos="notext">第三个视图</a>
+			</article>
+			<footer data-role="footer">
+				<h1>页脚</h1>
+			</footer>
+		</section>
+
+		<section data-role="page" id="view2" data-title="第二个视图title">
+			<header data-role="header">
+				<h1>第二个视图</h1>
+			</header>
+			<article data-role="content">
+				<a href="#view1" data-transition="pop" data-role="button" data-icon="home"  data-inline="true">切换第一个视图</a>
+			</article>	
+			<footer data-role="footer">
+				<h1>页脚</h1>
+			</footer>	
+
+		</section >
+			
+		<section data-role="page" id="view3" data-title="3">
+			<header data-role="header" >
+				
+			</header>
+			<article data-role="controlgroup" data-type="horizontal">
+			
+				<a href="#" data-role="button" data-icon="back" data-iconpos="notext">返回</a>
+				<a href="#view1" data-role="button" data-icon="home" data-iconpos="notext"  data-transition="pop">首页</a>
+				<a href="#" data-role="button" data-icon="forward" data-iconpos="notext">前进</a>
+			
+			</article>
+		</section>
+
+
+
+	</body>
+</html>

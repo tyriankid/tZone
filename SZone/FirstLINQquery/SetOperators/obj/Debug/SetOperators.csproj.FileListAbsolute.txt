@@ -1,0 +1,5 @@
+G:\SZone\FirstLINQquery\SetOperators\bin\Debug\SetOperators.exe
+G:\SZone\FirstLINQquery\SetOperators\bin\Debug\SetOperators.pdb
+G:\SZone\FirstLINQquery\SetOperators\obj\Debug\ResolveAssemblyReference.cache
+G:\SZone\FirstLINQquery\SetOperators\obj\Debug\SetOperators.exe
+G:\SZone\FirstLINQquery\SetOperators\obj\Debug\SetOperators.pdb

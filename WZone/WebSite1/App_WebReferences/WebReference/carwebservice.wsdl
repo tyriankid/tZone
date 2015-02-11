@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="WriteLogInfo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="optuser" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="optname" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="optcontent" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="WriteLogInfoResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="WriteUseCarInfo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="appuser" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="appdep" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="othdep" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="outdate" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="indate" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="usercount" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="reason" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="chargeuser" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="chargeusertel" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="cartype" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="memo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="prjid" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="goalcity" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="state" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="isbd" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="appuserpy" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="chkuser" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="WriteUseCarInfoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="WriteUseCarInfoResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateUseCarState">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="rowid" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="state" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateUseCarStateResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="UpdateUseCarStateResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUseCarInfo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="state" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="appuser" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="rowid" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUseCarInfoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetUseCarInfoResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCars">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="state" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="carid" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCarsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetCarsResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateCarsState">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CarId" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="state" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateCarsStateResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="UpdateCarsStateResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="WriteSendCarInfo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="callid" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="cartype" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="goaltype" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="drivername" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="goalcity" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="drivertel" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="carid" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="state" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="outtime" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="intime" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="hhs" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="usedep" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="WriteSendCarInfoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="WriteSendCarInfoResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DeleteSendCarInfo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="callid" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DeleteSendCarInfoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="DeleteSendCarInfoResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="WriteLogInfoSoapIn">
+    <wsdl:part name="parameters" element="tns:WriteLogInfo" />
+  </wsdl:message>
+  <wsdl:message name="WriteLogInfoSoapOut">
+    <wsdl:part name="parameters" element="tns:WriteLogInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="WriteUseCarInfoSoapIn">
+    <wsdl:part name="parameters" element="tns:WriteUseCarInfo" />
+  </wsdl:message>
+  <wsdl:message name="WriteUseCarInfoSoapOut">
+    <wsdl:part name="parameters" element="tns:WriteUseCarInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpdateUseCarStateSoapIn">
+    <wsdl:part name="parameters" element="tns:UpdateUseCarState" />
+  </wsdl:message>
+  <wsdl:message name="UpdateUseCarStateSoapOut">
+    <wsdl:part name="parameters" element="tns:UpdateUseCarStateResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetUseCarInfoSoapIn">
+    <wsdl:part name="parameters" element="tns:GetUseCarInfo" />
+  </wsdl:message>
+  <wsdl:message name="GetUseCarInfoSoapOut">
+    <wsdl:part name="parameters" element="tns:GetUseCarInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetCarsSoapIn">
+    <wsdl:part name="parameters" element="tns:GetCars" />
+  </wsdl:message>
+  <wsdl:message name="GetCarsSoapOut">
+    <wsdl:part name="parameters" element="tns:GetCarsResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpdateCarsStateSoapIn">
+    <wsdl:part name="parameters" element="tns:UpdateCarsState" />
+  </wsdl:message>
+  <wsdl:message name="UpdateCarsStateSoapOut">
+    <wsdl:part name="parameters" element="tns:UpdateCarsStateResponse" />
+  </wsdl:message>
+  <wsdl:message name="WriteSendCarInfoSoapIn">
+    <wsdl:part name="parameters" element="tns:WriteSendCarInfo" />
+  </wsdl:message>
+  <wsdl:message name="WriteSendCarInfoSoapOut">
+    <wsdl:part name="parameters" element="tns:WriteSendCarInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="DeleteSendCarInfoSoapIn">
+    <wsdl:part name="parameters" element="tns:DeleteSendCarInfo" />
+  </wsdl:message>
+  <wsdl:message name="DeleteSendCarInfoSoapOut">
+    <wsdl:part name="parameters" element="tns:DeleteSendCarInfoResponse" />
+  </wsdl:message>
+  <wsdl:portType name="CarWebServiceSoap">
+    <wsdl:operation name="WriteLogInfo">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">写入日志信息，参数optuser:执行用户 optname:执行的方法名 optcontent:执行的内容</wsdl:documentation>
+      <wsdl:input message="tns:WriteLogInfoSoapIn" />
+      <wsdl:output message="tns:WriteLogInfoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="WriteUseCarInfo">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">写入调车单信息，0：成功　1：失败</wsdl:documentation>
+      <wsdl:input message="tns:WriteUseCarInfoSoapIn" />
+      <wsdl:output message="tns:WriteUseCarInfoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateUseCarState">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">更新调车单的状态。    参数rowid：调车单id 参数state：调车单状态   0：成功，1：失败</wsdl:documentation>
+      <wsdl:input message="tns:UpdateUseCarStateSoapIn" />
+      <wsdl:output message="tns:UpdateUseCarStateSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUseCarInfo">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">获得调车单信息。 state：调车单的状态  appuser：调车人   rowid：调车单id</wsdl:documentation>
+      <wsdl:input message="tns:GetUseCarInfoSoapIn" />
+      <wsdl:output message="tns:GetUseCarInfoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCars">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">获取车辆信息。 参数state：车辆的状态 carid：车牌号 </wsdl:documentation>
+      <wsdl:input message="tns:GetCarsSoapIn" />
+      <wsdl:output message="tns:GetCarsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateCarsState">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">更新车辆的状态。 参数CarId：车牌号  参数state：车辆状态 0：成功，1：失败</wsdl:documentation>
+      <wsdl:input message="tns:UpdateCarsStateSoapIn" />
+      <wsdl:output message="tns:UpdateCarsStateSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="WriteSendCarInfo">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">写入派车单信息 0：成功，1：失败</wsdl:documentation>
+      <wsdl:input message="tns:WriteSendCarInfoSoapIn" />
+      <wsdl:output message="tns:WriteSendCarInfoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteSendCarInfo">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">删除派车单信息 0：成功，1：失败</wsdl:documentation>
+      <wsdl:input message="tns:DeleteSendCarInfoSoapIn" />
+      <wsdl:output message="tns:DeleteSendCarInfoSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="CarWebServiceSoap" type="tns:CarWebServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="WriteLogInfo">
+      <soap:operation soapAction="http://tempuri.org/WriteLogInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WriteUseCarInfo">
+      <soap:operation soapAction="http://tempuri.org/WriteUseCarInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateUseCarState">
+      <soap:operation soapAction="http://tempuri.org/UpdateUseCarState" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUseCarInfo">
+      <soap:operation soapAction="http://tempuri.org/GetUseCarInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCars">
+      <soap:operation soapAction="http://tempuri.org/GetCars" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateCarsState">
+      <soap:operation soapAction="http://tempuri.org/UpdateCarsState" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WriteSendCarInfo">
+      <soap:operation soapAction="http://tempuri.org/WriteSendCarInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteSendCarInfo">
+      <soap:operation soapAction="http://tempuri.org/DeleteSendCarInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="CarWebServiceSoap12" type="tns:CarWebServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="WriteLogInfo">
+      <soap12:operation soapAction="http://tempuri.org/WriteLogInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WriteUseCarInfo">
+      <soap12:operation soapAction="http://tempuri.org/WriteUseCarInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateUseCarState">
+      <soap12:operation soapAction="http://tempuri.org/UpdateUseCarState" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUseCarInfo">
+      <soap12:operation soapAction="http://tempuri.org/GetUseCarInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCars">
+      <soap12:operation soapAction="http://tempuri.org/GetCars" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateCarsState">
+      <soap12:operation soapAction="http://tempuri.org/UpdateCarsState" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WriteSendCarInfo">
+      <soap12:operation soapAction="http://tempuri.org/WriteSendCarInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteSendCarInfo">
+      <soap12:operation soapAction="http://tempuri.org/DeleteSendCarInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="CarWebService">
+    <wsdl:port name="CarWebServiceSoap" binding="tns:CarWebServiceSoap">
+      <soap:address location="http://119.97.143.9/carwebservice/carwebservice.asmx" />
+    </wsdl:port>
+    <wsdl:port name="CarWebServiceSoap12" binding="tns:CarWebServiceSoap12">
+      <soap12:address location="http://119.97.143.9/carwebservice/carwebservice.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,16 @@
+E:\MyWorking\武汉亨通\微信调车系统\CarWebService\CarWebService\obj\Debug\ResolveAssemblyReference.cache
+E:\MyWorking\武汉亨通\微信调车系统\CarWebService\CarWebService\bin\CarWebService.dll
+E:\MyWorking\武汉亨通\微信调车系统\CarWebService\CarWebService\bin\CarWebService.pdb
+E:\MyWorking\武汉亨通\微信调车系统\CarWebService\CarWebService\obj\Debug\CarWebService.dll
+E:\MyWorking\武汉亨通\微信调车系统\CarWebService\CarWebService\obj\Debug\CarWebService.pdb
+C:\Documents and Settings\htkj\桌面\CarWebService\CarWebService\bin\CarWebService.dll
+C:\Documents and Settings\htkj\桌面\CarWebService\CarWebService\bin\CarWebService.pdb
+C:\Documents and Settings\htkj\桌面\CarWebService\CarWebService\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\htkj\桌面\CarWebService\CarWebService\obj\Debug\CarWebService.dll
+C:\Documents and Settings\htkj\桌面\CarWebService\CarWebService\obj\Debug\CarWebService.pdb
+G:\TyrianZone\WZone\CarWebService\CarWebService\bin\CarWebService.dll
+G:\TyrianZone\WZone\CarWebService\CarWebService\bin\CarWebService.pdb
+G:\TyrianZone\WZone\CarWebService\CarWebService\obj\Debug\ResolveAssemblyReference.cache
+G:\TyrianZone\WZone\CarWebService\CarWebService\obj\Debug\CarWebService.dll
+G:\TyrianZone\WZone\CarWebService\CarWebService\obj\Debug\CarWebService.pdb
+G:\TyrianZone\WZone\CarWebService\CarWebService\bin\SqlDataAccess.dll

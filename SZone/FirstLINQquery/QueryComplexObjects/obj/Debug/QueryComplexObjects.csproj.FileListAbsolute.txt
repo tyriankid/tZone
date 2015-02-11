@@ -1,0 +1,5 @@
+G:\SZone\FirstLINQquery\QueryComplexObjects\bin\Debug\QueryComplexObjects.exe
+G:\SZone\FirstLINQquery\QueryComplexObjects\bin\Debug\QueryComplexObjects.pdb
+G:\SZone\FirstLINQquery\QueryComplexObjects\obj\Debug\ResolveAssemblyReference.cache
+G:\SZone\FirstLINQquery\QueryComplexObjects\obj\Debug\QueryComplexObjects.exe
+G:\SZone\FirstLINQquery\QueryComplexObjects\obj\Debug\QueryComplexObjects.pdb

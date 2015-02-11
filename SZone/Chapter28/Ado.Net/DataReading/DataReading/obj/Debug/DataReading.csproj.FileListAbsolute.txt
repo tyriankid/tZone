@@ -1,0 +1,5 @@
+G:\TyrianZone\SZone\Chapter28\Ado.Net\DataReading\DataReading\bin\Debug\DataReading.exe
+G:\TyrianZone\SZone\Chapter28\Ado.Net\DataReading\DataReading\bin\Debug\DataReading.pdb
+G:\TyrianZone\SZone\Chapter28\Ado.Net\DataReading\DataReading\obj\Debug\ResolveAssemblyReference.cache
+G:\TyrianZone\SZone\Chapter28\Ado.Net\DataReading\DataReading\obj\Debug\DataReading.exe
+G:\TyrianZone\SZone\Chapter28\Ado.Net\DataReading\DataReading\obj\Debug\DataReading.pdb

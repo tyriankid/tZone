@@ -1,0 +1,5 @@
+G:\TyrianZone\SZone\Chapter28\Ado.Net\DataRelationExample\DataRelationExample\bin\Debug\DataRelationExample.exe
+G:\TyrianZone\SZone\Chapter28\Ado.Net\DataRelationExample\DataRelationExample\bin\Debug\DataRelationExample.pdb
+G:\TyrianZone\SZone\Chapter28\Ado.Net\DataRelationExample\DataRelationExample\obj\Debug\ResolveAssemblyReference.cache
+G:\TyrianZone\SZone\Chapter28\Ado.Net\DataRelationExample\DataRelationExample\obj\Debug\DataRelationExample.exe
+G:\TyrianZone\SZone\Chapter28\Ado.Net\DataRelationExample\DataRelationExample\obj\Debug\DataRelationExample.pdb

@@ -1,0 +1,5 @@
+G:\TyrianZone\SZone\W3cSchool\C#\fengzhuang\fengzhuang\obj\Debug\ResolveAssemblyReference.cache
+G:\TyrianZone\SZone\W3cSchool\C#\fengzhuang\fengzhuang\bin\Debug\fengzhuang.exe
+G:\TyrianZone\SZone\W3cSchool\C#\fengzhuang\fengzhuang\bin\Debug\fengzhuang.pdb
+G:\TyrianZone\SZone\W3cSchool\C#\fengzhuang\fengzhuang\obj\Debug\fengzhuang.exe
+G:\TyrianZone\SZone\W3cSchool\C#\fengzhuang\fengzhuang\obj\Debug\fengzhuang.pdb

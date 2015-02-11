@@ -1,0 +1,6 @@
+G:\TyrianZone\SZone\FirstLINQtoSQLQquery\FirstLINQtoSQLQquery\bin\Debug\FirstLINQtoSQLQquery.exe.config
+G:\TyrianZone\SZone\FirstLINQtoSQLQquery\FirstLINQtoSQLQquery\bin\Debug\FirstLINQtoSQLQquery.exe
+G:\TyrianZone\SZone\FirstLINQtoSQLQquery\FirstLINQtoSQLQquery\bin\Debug\FirstLINQtoSQLQquery.pdb
+G:\TyrianZone\SZone\FirstLINQtoSQLQquery\FirstLINQtoSQLQquery\obj\Debug\ResolveAssemblyReference.cache
+G:\TyrianZone\SZone\FirstLINQtoSQLQquery\FirstLINQtoSQLQquery\obj\Debug\FirstLINQtoSQLQquery.exe
+G:\TyrianZone\SZone\FirstLINQtoSQLQquery\FirstLINQtoSQLQquery\obj\Debug\FirstLINQtoSQLQquery.pdb

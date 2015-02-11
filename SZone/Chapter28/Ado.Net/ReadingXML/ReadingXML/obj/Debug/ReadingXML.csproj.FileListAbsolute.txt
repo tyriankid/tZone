@@ -1,0 +1,5 @@
+G:\TyrianZone\SZone\Chapter28\Ado.Net\ReadingXML\ReadingXML\bin\Debug\ReadingXML.exe
+G:\TyrianZone\SZone\Chapter28\Ado.Net\ReadingXML\ReadingXML\bin\Debug\ReadingXML.pdb
+G:\TyrianZone\SZone\Chapter28\Ado.Net\ReadingXML\ReadingXML\obj\Debug\ResolveAssemblyReference.cache
+G:\TyrianZone\SZone\Chapter28\Ado.Net\ReadingXML\ReadingXML\obj\Debug\ReadingXML.exe
+G:\TyrianZone\SZone\Chapter28\Ado.Net\ReadingXML\ReadingXML\obj\Debug\ReadingXML.pdb
