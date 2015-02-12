@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+<title>附件上传</title>    
+    <link href="images/css.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="js/swfupload.js"></script>
+    <script type="text/javascript" src="js/swfupload.queue.js"></script>
+    <script type="text/javascript" src="js/fileprogress.js"></script>
+    <script type="text/javascript" src="js/filegroupprogress.js"></script>
+    <script type="text/javascript" src="js/handlers.js"></script>
+    <script type="text/javascript">
+        var swfu;
+        var upfile = [];
+        var objid="", filter="*.*", maxfiles = 16;
+
+        var arg = window.dialogArguments;        
+        if (typeof(arg) == "string") {
+            objid = arg;
+        } else {
+            objid = arg.id;
+            if (arg.filter.length>0) {
+                filter = "";
+                for (var i=0; i<arg.filter.length; i++) filter += ";*." + arg.filter[i];
+                filter = filter.substring(1);
+            }
+            maxfiles = arg.maxfiles;
+        }     
+       
+        if (objid != "") {
+            window.onload = function() {
+                var settings = {
+                    flash_url: "js/swfupload.swf",
+                    upload_url: "upload.aspx?objid=" + objid,
+                    file_size_limit: "5000 MB",
+                    file_types: filter,
+                    file_types_description: "选择本地文件",
+                    file_upload_limit: 5000,
+                    file_queue_limit: maxfiles,
+                    custom_settings: {
+                        progressTarget: "divprogresscontainer",
+                        progressGroupTarget : "divprogressGroup",                    
+                        //progress object
+                        container_css: "progressobj",
+                        icoNormal_css: "IcoNormal",
+                        icoWaiting_css: "IcoWaiting",
+                        icoUpload_css: "IcoUpload",
+                        fname_css : "fle ftt",
+                        state_div_css : "statebarSmallDiv",
+                        state_bar_css : "statebar",
+                        percent_css : "ftt",
+                        href_delete_css : "ftt",
+                        s_cnt_progress: "cnt_progress",
+                        s_cnt_span_text : "fle",
+                        s_cnt_progress_statebar : "cnt_progress_statebar",
+                        s_cnt_progress_percent: "cnt_progress_percent",
+                        s_cnt_progress_uploaded : "cnt_progress_uploaded",
+                        s_cnt_progress_size : "cnt_progress_size",
+                        post_params:{"PHPSESSID":"<?php echo session_id();?>"}
+                    },
+                    debug: false,
+
+                    button_image_url: "images/btnbg88.png",
+                    button_width: "98",
+                    button_height: "22",
+                    button_placeholder_id: "spanButtonPlaceHolder",
+                    button_text: '<span class="btnUpload">选择本地文件</span>',
+                    button_text_style: ".btnUpload {font-size:12;color:#0068B7;border:solid 1px blue;}",
+                    button_text_left_padding:11,
+                    button_text_top_padding: 1,
+
+                    // The event handler functions are defined in handlers.js
+                    file_queued_handler: fileQueued,
+                    file_queue_error_handler: fileQueueError,
+                    upload_start_handler: uploadStart,
+                    upload_progress_handler: uploadProgress,
+                    upload_error_handler: uploadError,
+                    upload_success_handler: uploadSuccess,
+                    upload_complete_handler:uploadComplete,
+                    file_dialog_complete_handler: AfterSelectFile, //fileDialogComplete,
+                    queue_complete_handler:queueComplete
+                };
+                swfu = new SWFUpload(settings);
+               // swfu.refreshCookies();
+            };
+        }else {
+            window.setTimeout(function(){document.getElementById("upui").innerHTML = "<br><br><br><center>参数不对, 无法上传</center><br><br><br>";},300);
+        }
+        
+    </script>    
+</head>
+<body scroll="no">
+<div style="padding:5px 5px 5px 5px">
+<div id="upui" style="border:solid 1px gray; padding:5px 5px 5px 5px; height:150px; overflow:auto;">
+    <form id="frmMain" action="upload.aspx" runat="server" enctype="multipart/form-data">
+    <span id="spanButtonPlaceHolder"></span>
+    <div id="divprogressGroup"></div>
+    <div id="divprogresscontainer"></div>
+    </form>
+</div>
+</div>
+</body>
+</html>

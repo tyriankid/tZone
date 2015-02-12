@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+    <title>附件上传　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　</title>
+    <script type="text/javascript">
+    var uploadover = false;
+    var uploading = false;
+    var closetype = "sys";
+    var selectfilesize = 0;
+    function ok() {
+        closetype = "btnOK";
+        window.returnValue = window.frames[0].upfile;
+        window.close();
+    }
+    function unloadtip() {}
+    </script>
+</head>
+<body style="margin:0px 0px 0px 0px; padding:5px 0px 0px 0px" scroll="no" onbeforeunload="if(uploading && !uploadover){return '注意: 系统正在上传文件, 点【确定】按钮将结束此次上传!!!';}">
+<iframe frameborder="0" scrolling="no" style="width:100%; height:180px;" src="upload.htm"></iframe><br />
+<center>
+<!-- <input id="btnOK" type="button" value=" 选择文件 " onclick="window.frames[0].SelectFiles();" /> -->
+<input id="btnUp" disabled="0" type="button" value=" 开始上传 " onclick="uploading=true;window.frames[0].fileDialogComplete();" />
+</center>
+</body>
+</html>
