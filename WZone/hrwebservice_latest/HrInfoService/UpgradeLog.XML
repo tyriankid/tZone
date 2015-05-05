@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="HrInfoService">
+</Property><Property Name="解决方案文件" Value="C:\Documents and Settings\Administrator\桌面\HrInfoService\HrInfoService.sln">
+</Property><Property Name="用户选项文件" Value="C:\Documents and Settings\Administrator\桌面\HrInfoService\HrInfoService.suo">
+</Property><Property Name="Date" Value="2015年1月17日">
+</Property><Property Name="Time" Value="9:43">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="HrInfoService.sln" Description="文件已成功备份为 C:\Documents and Settings\Administrator\桌面\HrInfoService\Backup\HrInfoService.sln">
+</Event><Event ErrorLevel="0" Project="" Source="HrInfoService.suo" Description="文件已成功备份为 C:\Documents and Settings\Administrator\桌面\HrInfoService\Backup\HrInfoService.suo">
+</Event><Event ErrorLevel="0" Project="HrInfoService" Source="HrInfoService\HrInfoService.csproj" Description="项目文件已成功备份为 C:\Documents and Settings\Administrator\桌面\HrInfoService\Backup\HrInfoService\HrInfoService.csproj">
+</Event><Event ErrorLevel="0" Project="HrInfoService" Source="HrInfoService\HrInfoService.csproj.user" Description="项目用户文件成功备份为 C:\Documents and Settings\Administrator\桌面\HrInfoService\Backup\HrInfoService\HrInfoService.csproj.user">
+</Event><Event ErrorLevel="0" Project="HrInfoService" Source="HrInfoService\HrInfoService.asmx.cs" Description="文件已成功备份为 C:\Documents and Settings\Administrator\桌面\HrInfoService\Backup\HrInfoService\HrInfoService.asmx.cs">
+</Event><Event ErrorLevel="0" Project="HrInfoService" Source="HrInfoService\Properties\AssemblyInfo.cs" Description="文件已成功备份为 C:\Documents and Settings\Administrator\桌面\HrInfoService\Backup\HrInfoService\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="HrInfoService" Source="HrInfoService\SqlHelper.cs" Description="文件已成功备份为 C:\Documents and Settings\Administrator\桌面\HrInfoService\Backup\HrInfoService\SqlHelper.cs">
+</Event><Event ErrorLevel="0" Project="HrInfoService" Source="HrInfoService\SysDepInfo .cs" Description="文件已成功备份为 C:\Documents and Settings\Administrator\桌面\HrInfoService\Backup\HrInfoService\SysDepInfo .cs">
+</Event><Event ErrorLevel="0" Project="HrInfoService" Source="HrInfoService\SysStaffInfo .cs" Description="文件已成功备份为 C:\Documents and Settings\Administrator\桌面\HrInfoService\Backup\HrInfoService\SysStaffInfo .cs">
+</Event><Event ErrorLevel="0" Project="HrInfoService" Source="HrInfoService\HrInfoService.asmx" Description="文件已成功备份为 C:\Documents and Settings\Administrator\桌面\HrInfoService\Backup\HrInfoService\HrInfoService.asmx">
+</Event><Event ErrorLevel="0" Project="HrInfoService" Source="HrInfoService\Web.config" Description="文件已成功备份为 C:\Documents and Settings\Administrator\桌面\HrInfoService\Backup\HrInfoService\Web.config">
+</Event><Event ErrorLevel="0" Project="HrInfoService" Source="HrInfoService\HrInfoService.csproj" Description="项目已成功转换">
+</Event><Event ErrorLevel="3" Project="HrInfoService" Source="HrInfoService\HrInfoService.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="HrInfoService.sln" Description="成功转换解决方案">
+</Event><Event ErrorLevel="3" Project="" Source="HrInfoService.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="HrInfoService" Source="HrInfoService\HrInfoService.csproj" Description="扫描完成: 项目文件不需要升级。">
+</Event></UpgradeLog>

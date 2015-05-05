@@ -1,0 +1,28 @@
+D:\Backup\我的文档\Visual Studio 2008\Projects\HrInfoService\HrInfoService\obj\Debug\ResolveAssemblyReference.cache
+D:\Backup\我的文档\Visual Studio 2008\Projects\HrInfoService\HrInfoService\bin\HrInfoService.dll
+D:\Backup\我的文档\Visual Studio 2008\Projects\HrInfoService\HrInfoService\bin\HrInfoService.pdb
+D:\Backup\我的文档\Visual Studio 2008\Projects\HrInfoService\HrInfoService\obj\Debug\HrInfoService.dll
+D:\Backup\我的文档\Visual Studio 2008\Projects\HrInfoService\HrInfoService\obj\Debug\HrInfoService.pdb
+D:\Backup\我的文档\Visual Studio 2008\Projects\HrInfoService\HrInfoService\bin\SqlDataAccess.pdb
+C:\Documents and Settings\htkj\桌面\HrInfoService\HrInfoService\bin\HrInfoService.dll
+C:\Documents and Settings\htkj\桌面\HrInfoService\HrInfoService\bin\HrInfoService.pdb
+C:\Documents and Settings\htkj\桌面\HrInfoService\HrInfoService\bin\SqlDataAccess.dll
+C:\Documents and Settings\htkj\桌面\HrInfoService\HrInfoService\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\htkj\桌面\HrInfoService\HrInfoService\obj\Debug\HrInfoService.dll
+C:\Documents and Settings\htkj\桌面\HrInfoService\HrInfoService\obj\Debug\HrInfoService.pdb
+E:\MyWorking\武汉亨通\微信调车系统\HrInfoService\HrInfoService\bin\HrInfoService.dll
+E:\MyWorking\武汉亨通\微信调车系统\HrInfoService\HrInfoService\bin\HrInfoService.pdb
+E:\MyWorking\武汉亨通\微信调车系统\HrInfoService\HrInfoService\obj\Debug\ResolveAssemblyReference.cache
+E:\MyWorking\武汉亨通\微信调车系统\HrInfoService\HrInfoService\obj\Debug\HrInfoService.dll
+E:\MyWorking\武汉亨通\微信调车系统\HrInfoService\HrInfoService\obj\Debug\HrInfoService.pdb
+C:\Documents and Settings\Administrator\桌面\HrInfoService\HrInfoService\bin\HrInfoService.dll
+C:\Documents and Settings\Administrator\桌面\HrInfoService\HrInfoService\bin\HrInfoService.pdb
+C:\Documents and Settings\Administrator\桌面\HrInfoService\HrInfoService\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\HrInfoService\HrInfoService\obj\Debug\HrInfoService.dll
+C:\Documents and Settings\Administrator\桌面\HrInfoService\HrInfoService\obj\Debug\HrInfoService.pdb
+C:\Documents and Settings\htkj\桌面\files\hrwebservice_latest\HrInfoService\HrInfoService\bin\HrInfoService.dll
+C:\Documents and Settings\htkj\桌面\files\hrwebservice_latest\HrInfoService\HrInfoService\bin\HrInfoService.pdb
+C:\Documents and Settings\htkj\桌面\files\hrwebservice_latest\HrInfoService\HrInfoService\bin\SqlDataAccess.dll
+C:\Documents and Settings\htkj\桌面\files\hrwebservice_latest\HrInfoService\HrInfoService\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\htkj\桌面\files\hrwebservice_latest\HrInfoService\HrInfoService\obj\Debug\HrInfoService.dll
+C:\Documents and Settings\htkj\桌面\files\hrwebservice_latest\HrInfoService\HrInfoService\obj\Debug\HrInfoService.pdb
