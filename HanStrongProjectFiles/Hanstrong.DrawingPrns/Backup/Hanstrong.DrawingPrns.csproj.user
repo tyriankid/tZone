@@ -1,0 +1,5 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <StartArguments>drawingprns://downloadfiles/?objid=26697C06EE2CE5984CA9EEFBF27A5F4E</StartArguments>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,99 @@
+D:\Hanstrong.WorkDirs\Hanstrong.Decrypts\Hanstrong.Decrypts\Hanstrong.Decrypts\bin\Debug\drawingprns.exe.config
+D:\Hanstrong.WorkDirs\Hanstrong.Decrypts\Hanstrong.Decrypts\Hanstrong.Decrypts\obj\Debug\ResolveAssemblyReference.cache
+D:\Hanstrong.WorkDirs\Hanstrong.Decrypts\Hanstrong.Decrypts\Hanstrong.Decrypts\obj\Debug\Hanstrong.Decrypts.frmDecryptsTipMsg.resources
+D:\Hanstrong.WorkDirs\Hanstrong.Decrypts\Hanstrong.Decrypts\Hanstrong.Decrypts\obj\Debug\Hanstrong.Decrypts.FileTransferDialog.resources
+D:\Hanstrong.WorkDirs\Hanstrong.Decrypts\Hanstrong.Decrypts\Hanstrong.Decrypts\obj\Debug\Hanstrong.DrawingPrns.Properties.Resources.resources
+D:\Hanstrong.WorkDirs\Hanstrong.Decrypts\Hanstrong.Decrypts\Hanstrong.Decrypts\obj\Debug\Hanstrong.DrawingPrns.csproj.GenerateResource.Cache
+D:\Hanstrong.WorkDirs\Hanstrong.Decrypts\Hanstrong.Decrypts\Hanstrong.Decrypts\obj\Debug\drawingprns.exe.licenses
+D:\Hanstrong.WorkDirs\Hanstrong.Decrypts\Hanstrong.Decrypts\Hanstrong.Decrypts\bin\Debug\drawingprns.exe
+D:\Hanstrong.WorkDirs\Hanstrong.Decrypts\Hanstrong.Decrypts\Hanstrong.Decrypts\bin\Debug\drawingprns.pdb
+D:\Hanstrong.WorkDirs\Hanstrong.Decrypts\Hanstrong.Decrypts\Hanstrong.Decrypts\bin\Debug\Dart.PowerTCP.Ftp.dll
+D:\Hanstrong.WorkDirs\Hanstrong.Decrypts\Hanstrong.Decrypts\Hanstrong.Decrypts\obj\Debug\drawingprns.exe
+D:\Hanstrong.WorkDirs\Hanstrong.Decrypts\Hanstrong.Decrypts\Hanstrong.Decrypts\obj\Debug\drawingprns.pdb
+D:\Hanstrong.WorkDirs\Hanstrong.DrawingPrnsV3.0_20110531\Hanstrong.DrawingPrnsV3.0_20110531\bin\Debug\drawingprns.exe.config
+D:\Hanstrong.WorkDirs\Hanstrong.DrawingPrnsV3.0_20110531\Hanstrong.DrawingPrnsV3.0_20110531\bin\Debug\drawingprns.exe
+D:\Hanstrong.WorkDirs\Hanstrong.DrawingPrnsV3.0_20110531\Hanstrong.DrawingPrnsV3.0_20110531\bin\Debug\drawingprns.pdb
+D:\Hanstrong.WorkDirs\Hanstrong.DrawingPrnsV3.0_20110531\Hanstrong.DrawingPrnsV3.0_20110531\bin\Debug\Dart.PowerTCP.Ftp.dll
+D:\Hanstrong.WorkDirs\Hanstrong.DrawingPrnsV3.0_20110531\Hanstrong.DrawingPrnsV3.0_20110531\obj\Debug\ResolveAssemblyReference.cache
+D:\Hanstrong.WorkDirs\Hanstrong.DrawingPrnsV3.0_20110531\Hanstrong.DrawingPrnsV3.0_20110531\obj\Debug\Hanstrong.Decrypts.frmDecryptsTipMsg.resources
+D:\Hanstrong.WorkDirs\Hanstrong.DrawingPrnsV3.0_20110531\Hanstrong.DrawingPrnsV3.0_20110531\obj\Debug\Hanstrong.Decrypts.FileTransferDialog.resources
+D:\Hanstrong.WorkDirs\Hanstrong.DrawingPrnsV3.0_20110531\Hanstrong.DrawingPrnsV3.0_20110531\obj\Debug\Hanstrong.DrawingPrns.Properties.Resources.resources
+D:\Hanstrong.WorkDirs\Hanstrong.DrawingPrnsV3.0_20110531\Hanstrong.DrawingPrnsV3.0_20110531\obj\Debug\drawingprns.exe.licenses
+D:\Hanstrong.WorkDirs\Hanstrong.DrawingPrnsV3.0_20110531\Hanstrong.DrawingPrnsV3.0_20110531\obj\Debug\drawingprns.exe
+D:\Hanstrong.WorkDirs\Hanstrong.DrawingPrnsV3.0_20110531\Hanstrong.DrawingPrnsV3.0_20110531\obj\Debug\drawingprns.pdb
+D:\Hanstrong.WorkDirs\Hanstrong.DrawingPrnsV3.0_20110531\Hanstrong.DrawingPrnsV3.0_20110531\obj\Debug\GenerateResource-ResGen.read.1.tlog
+D:\Hanstrong.WorkDirs\Hanstrong.DrawingPrnsV3.0_20110531\Hanstrong.DrawingPrnsV3.0_20110531\obj\Debug\GenerateResource-ResGen.write.1.tlog
+F:\Other\李选正工作内容交接和项目源码及相关文档和资源\源代码\绘图文件下载工具\bin\Debug\drawingprns.exe.config
+F:\Other\李选正工作内容交接和项目源码及相关文档和资源\源代码\绘图文件下载工具\obj\Debug\drawingprns.exe
+F:\Other\李选正工作内容交接和项目源码及相关文档和资源\源代码\绘图文件下载工具\obj\Debug\drawingprns.pdb
+F:\ZhaoXin\Work\Hanstrong.DrawingPrns\bin\Debug\drawingprns.exe.config
+F:\ZhaoXin\Work\Hanstrong.DrawingPrns\bin\Debug\drawingprns.exe
+F:\ZhaoXin\Work\Hanstrong.DrawingPrns\bin\Debug\drawingprns.pdb
+F:\ZhaoXin\Work\Hanstrong.DrawingPrns\bin\Debug\Dart.PowerTCP.Ftp.dll
+F:\ZhaoXin\Work\Hanstrong.DrawingPrns\obj\Debug\ResolveAssemblyReference.cache
+F:\ZhaoXin\Work\Hanstrong.DrawingPrns\obj\Debug\Hanstrong.Decrypts.frmDecryptsTipMsg.resources
+F:\ZhaoXin\Work\Hanstrong.DrawingPrns\obj\Debug\Hanstrong.Decrypts.FileTransferDialog.resources
+F:\ZhaoXin\Work\Hanstrong.DrawingPrns\obj\Debug\Hanstrong.DrawingPrns.Properties.Resources.resources
+F:\ZhaoXin\Work\Hanstrong.DrawingPrns\obj\Debug\Hanstrong.DrawingPrns.csproj.GenerateResource.Cache
+F:\ZhaoXin\Work\Hanstrong.DrawingPrns\obj\Debug\drawingprns.exe.licenses
+F:\ZhaoXin\Work\Hanstrong.DrawingPrns\obj\Debug\drawingprns.exe
+F:\ZhaoXin\Work\Hanstrong.DrawingPrns\obj\Debug\drawingprns.pdb
+\\10.165.104.63\文件中转站\赵欣交接内容\源码\Hanstrong.DrawingPrns\bin\Debug\drawingprns.exe.config
+\\10.165.104.63\文件中转站\赵欣交接内容\源码\Hanstrong.DrawingPrns\obj\Debug\drawingprns.exe
+\\10.165.104.63\文件中转站\赵欣交接内容\源码\Hanstrong.DrawingPrns\obj\Debug\drawingprns.pdb
+\\10.165.104.63\文件中转站\赵欣交接内容\源码\Hanstrong.DrawingPrns\bin\Debug\drawingprns.exe
+\\10.165.104.63\文件中转站\赵欣交接内容\源码\Hanstrong.DrawingPrns\bin\Debug\drawingprns.pdb
+\\10.165.104.63\文件中转站\赵欣交接内容\源码\Hanstrong.DrawingPrns\obj\Debug\ResolveAssemblyReference.cache
+\\10.165.104.63\文件中转站\赵欣交接内容\源码\Hanstrong.DrawingPrns\obj\Debug\Hanstrong.Decrypts.frmDecryptsTipMsg.resources
+\\10.165.104.63\文件中转站\赵欣交接内容\源码\Hanstrong.DrawingPrns\obj\Debug\Hanstrong.Decrypts.FileTransferDialog.resources
+\\10.165.104.63\文件中转站\赵欣交接内容\源码\Hanstrong.DrawingPrns\obj\Debug\Hanstrong.DrawingPrns.Properties.Resources.resources
+\\10.165.104.63\文件中转站\赵欣交接内容\源码\Hanstrong.DrawingPrns\obj\Debug\Hanstrong.DrawingPrns.csproj.GenerateResource.Cache
+\\10.165.104.63\文件中转站\赵欣交接内容\源码\Hanstrong.DrawingPrns\obj\Debug\drawingprns.exe.licenses
+E:\MyWorking\武汉亨通\Hanstrong.DrawingPrns\bin\Debug\drawingprns.exe.config
+E:\MyWorking\武汉亨通\Hanstrong.DrawingPrns\obj\Debug\drawingprns.exe
+E:\MyWorking\武汉亨通\Hanstrong.DrawingPrns\obj\Debug\drawingprns.pdb
+E:\MyWorking\武汉亨通\Hanstrong.DrawingPrns\obj\Debug\Hanstrong.Decrypts.frmDecryptsTipMsg.resources
+E:\MyWorking\武汉亨通\Hanstrong.DrawingPrns\obj\Debug\Hanstrong.Decrypts.FileTransferDialog.resources
+E:\MyWorking\武汉亨通\Hanstrong.DrawingPrns\obj\Debug\Hanstrong.DrawingPrns.Properties.Resources.resources
+E:\MyWorking\武汉亨通\Hanstrong.DrawingPrns\obj\Debug\Hanstrong.DrawingPrns.csproj.GenerateResource.Cache
+E:\MyWorking\武汉亨通\Hanstrong.DrawingPrns\bin\Debug\drawingprns.exe
+E:\MyWorking\武汉亨通\Hanstrong.DrawingPrns\bin\Debug\drawingprns.pdb
+E:\MyWorking\武汉亨通\Hanstrong.DrawingPrns\obj\Debug\Hanstrong.DrawingPrns.frmBuilderZip.resources
+E:\MyWorking\武汉亨通\Hanstrong.DrawingPrns\obj\Debug\Hanstrong.DrawingPrns.frmComArh.resources
+E:\MyWorking\武汉亨通\Hanstrong.DrawingPrns\obj\Debug\Hanstrong.DrawingPrns.csprojResolveAssemblyReference.cache
+E:\MyWorking\武汉亨通\Hanstrong.DrawingPrns\obj\Debug\Hanstrong.DrawingPrns.frmHBuilderZip.resources
+E:\MyWorking\武汉亨通\Hanstrong.DrawingPrns\obj\Debug\Hanstrong.DrawingPrns.frmPubAllFilesDownLoad.resources
+F:\wjq\出版管理\Hanstrong.DrawingPrns\Hanstrong.DrawingPrns\bin\Debug\drawingprns.exe.config
+F:\wjq\出版管理\Hanstrong.DrawingPrns\Hanstrong.DrawingPrns\bin\Debug\drawingprns.exe
+F:\wjq\出版管理\Hanstrong.DrawingPrns\Hanstrong.DrawingPrns\bin\Debug\drawingprns.pdb
+F:\wjq\出版管理\Hanstrong.DrawingPrns\Hanstrong.DrawingPrns\obj\Debug\ResolveAssemblyReference.cache
+F:\wjq\出版管理\Hanstrong.DrawingPrns\Hanstrong.DrawingPrns\obj\Debug\Hanstrong.DrawingPrns.frmBuilderZip.resources
+F:\wjq\出版管理\Hanstrong.DrawingPrns\Hanstrong.DrawingPrns\obj\Debug\Hanstrong.DrawingPrns.frmComArh.resources
+F:\wjq\出版管理\Hanstrong.DrawingPrns\Hanstrong.DrawingPrns\obj\Debug\Hanstrong.Decrypts.frmDecryptsTipMsg.resources
+F:\wjq\出版管理\Hanstrong.DrawingPrns\Hanstrong.DrawingPrns\obj\Debug\Hanstrong.Decrypts.FileTransferDialog.resources
+F:\wjq\出版管理\Hanstrong.DrawingPrns\Hanstrong.DrawingPrns\obj\Debug\Hanstrong.DrawingPrns.frmPubAllFilesDownLoad.resources
+F:\wjq\出版管理\Hanstrong.DrawingPrns\Hanstrong.DrawingPrns\obj\Debug\Hanstrong.Decrypts.frmPubFilesUpload.resources
+F:\wjq\出版管理\Hanstrong.DrawingPrns\Hanstrong.DrawingPrns\obj\Debug\Hanstrong.DrawingPrns.Properties.Resources.resources
+F:\wjq\出版管理\Hanstrong.DrawingPrns\Hanstrong.DrawingPrns\obj\Debug\Hanstrong.DrawingPrns.frmHBuilderZip.resources
+F:\wjq\出版管理\Hanstrong.DrawingPrns\Hanstrong.DrawingPrns\obj\Debug\GenerateResource-ResGen.read.1.tlog
+F:\wjq\出版管理\Hanstrong.DrawingPrns\Hanstrong.DrawingPrns\obj\Debug\GenerateResource-ResGen.write.1.tlog
+F:\wjq\出版管理\Hanstrong.DrawingPrns\Hanstrong.DrawingPrns\obj\Debug\drawingprns.exe.licenses
+F:\wjq\出版管理\Hanstrong.DrawingPrns\Hanstrong.DrawingPrns\obj\Debug\drawingprns.exe
+F:\wjq\出版管理\Hanstrong.DrawingPrns\Hanstrong.DrawingPrns\obj\Debug\drawingprns.pdb
+C:\Documents and Settings\htkj\桌面\Hanstrong.DrawingPrns\bin\Debug\drawingprns.exe.config
+C:\Documents and Settings\htkj\桌面\Hanstrong.DrawingPrns\obj\Debug\drawingprns.exe
+C:\Documents and Settings\htkj\桌面\Hanstrong.DrawingPrns\obj\Debug\drawingprns.pdb
+C:\Documents and Settings\htkj\桌面\Hanstrong.DrawingPrns\bin\Debug\drawingprns.exe
+C:\Documents and Settings\htkj\桌面\Hanstrong.DrawingPrns\bin\Debug\drawingprns.pdb
+C:\Documents and Settings\htkj\桌面\Hanstrong.DrawingPrns\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\htkj\桌面\Hanstrong.DrawingPrns\obj\Debug\Hanstrong.DrawingPrns.frmBuilderZip.resources
+C:\Documents and Settings\htkj\桌面\Hanstrong.DrawingPrns\obj\Debug\Hanstrong.DrawingPrns.frmComArh.resources
+C:\Documents and Settings\htkj\桌面\Hanstrong.DrawingPrns\obj\Debug\Hanstrong.Decrypts.frmDecryptsTipMsg.resources
+C:\Documents and Settings\htkj\桌面\Hanstrong.DrawingPrns\obj\Debug\Hanstrong.Decrypts.FileTransferDialog.resources
+C:\Documents and Settings\htkj\桌面\Hanstrong.DrawingPrns\obj\Debug\Hanstrong.DrawingPrns.frmPubAllFilesDownLoad.resources
+C:\Documents and Settings\htkj\桌面\Hanstrong.DrawingPrns\obj\Debug\Hanstrong.Decrypts.frmPubFilesUpload.resources
+C:\Documents and Settings\htkj\桌面\Hanstrong.DrawingPrns\obj\Debug\Hanstrong.DrawingPrns.Properties.Resources.resources
+C:\Documents and Settings\htkj\桌面\Hanstrong.DrawingPrns\obj\Debug\Hanstrong.DrawingPrns.frmHBuilderZip.resources
+C:\Documents and Settings\htkj\桌面\Hanstrong.DrawingPrns\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Documents and Settings\htkj\桌面\Hanstrong.DrawingPrns\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Documents and Settings\htkj\桌面\Hanstrong.DrawingPrns\obj\Debug\drawingprns.exe.licenses

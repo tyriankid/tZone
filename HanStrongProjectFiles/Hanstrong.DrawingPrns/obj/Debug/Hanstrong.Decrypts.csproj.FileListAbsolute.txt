@@ -1,0 +1,12 @@
+D:\Hanstrong.WorkDirs\Hanstrong.Decrypts\Hanstrong.Decrypts\Hanstrong.Decrypts\bin\Debug\decrypts.exe.config
+D:\Hanstrong.WorkDirs\Hanstrong.Decrypts\Hanstrong.Decrypts\Hanstrong.Decrypts\bin\Debug\decrypts.exe
+D:\Hanstrong.WorkDirs\Hanstrong.Decrypts\Hanstrong.Decrypts\Hanstrong.Decrypts\bin\Debug\decrypts.pdb
+D:\Hanstrong.WorkDirs\Hanstrong.Decrypts\Hanstrong.Decrypts\Hanstrong.Decrypts\bin\Debug\Dart.PowerTCP.Ftp.dll
+D:\Hanstrong.WorkDirs\Hanstrong.Decrypts\Hanstrong.Decrypts\Hanstrong.Decrypts\obj\Debug\ResolveAssemblyReference.cache
+D:\Hanstrong.WorkDirs\Hanstrong.Decrypts\Hanstrong.Decrypts\Hanstrong.Decrypts\obj\Debug\Hanstrong.Decrypts.frmDecryptsTipMsg.resources
+D:\Hanstrong.WorkDirs\Hanstrong.Decrypts\Hanstrong.Decrypts\Hanstrong.Decrypts\obj\Debug\Hanstrong.Decrypts.FileTransferDialog.resources
+D:\Hanstrong.WorkDirs\Hanstrong.Decrypts\Hanstrong.Decrypts\Hanstrong.Decrypts\obj\Debug\Hanstrong.Decrypts.Properties.Resources.resources
+D:\Hanstrong.WorkDirs\Hanstrong.Decrypts\Hanstrong.Decrypts\Hanstrong.Decrypts\obj\Debug\Hanstrong.Decrypts.csproj.GenerateResource.Cache
+D:\Hanstrong.WorkDirs\Hanstrong.Decrypts\Hanstrong.Decrypts\Hanstrong.Decrypts\obj\Debug\decrypts.exe.licenses
+D:\Hanstrong.WorkDirs\Hanstrong.Decrypts\Hanstrong.Decrypts\Hanstrong.Decrypts\obj\Debug\decrypts.exe
+D:\Hanstrong.WorkDirs\Hanstrong.Decrypts\Hanstrong.Decrypts\Hanstrong.Decrypts\obj\Debug\decrypts.pdb

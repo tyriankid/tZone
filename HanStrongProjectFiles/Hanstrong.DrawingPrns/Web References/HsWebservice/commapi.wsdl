@@ -1,0 +1,611 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="GetLicenseKey">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Code" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetLicenseKeyResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetLicenseKeyResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MD5">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="data" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MD5Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="MD5Result" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Encode">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="data" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="key" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="EncodeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="EncodeResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Decode">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="data" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="key" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DecodeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DecodeResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ExecuteSql">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SqlCmd" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ExecuteSqlResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ExecuteSqlResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ExecuteSqlTrans">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SqlCmd" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfString">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="ExecuteSqlTransResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ExecuteSqlTransResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ExecutePrd">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PrdName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Params" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="Values" type="tns:ArrayOfAnyType" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfAnyType">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="anyType" nillable="true" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="ExecutePrdResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ExecutePrdResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDataSetBySql">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SqlCmd" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDataSetBySqlResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetDataSetBySqlResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDataTableBySql">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SqlCmd" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDataTableBySqlResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetDataTableBySqlResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDataSetByPrd">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PrdName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Params" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="Values" type="tns:ArrayOfAnyType" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDataSetByPrdResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetDataSetByPrdResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetZipDataSetBySql">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SqlCmd" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="argLevel" type="s:short" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetZipDataSetBySqlResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetZipDataSetBySqlResult" type="s:base64Binary" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetZipDataSetByPrd">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PrdName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Params" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="Values" type="tns:ArrayOfAnyType" />
+            <s:element minOccurs="1" maxOccurs="1" name="argLevel" type="s:short" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetZipDataSetByPrdResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetZipDataSetByPrdResult" type="s:base64Binary" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckLoginPass">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="loginName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="loginPass" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckLoginPassResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CheckLoginPassResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetLicenseKeySoapIn">
+    <wsdl:part name="parameters" element="tns:GetLicenseKey" />
+  </wsdl:message>
+  <wsdl:message name="GetLicenseKeySoapOut">
+    <wsdl:part name="parameters" element="tns:GetLicenseKeyResponse" />
+  </wsdl:message>
+  <wsdl:message name="MD5SoapIn">
+    <wsdl:part name="parameters" element="tns:MD5" />
+  </wsdl:message>
+  <wsdl:message name="MD5SoapOut">
+    <wsdl:part name="parameters" element="tns:MD5Response" />
+  </wsdl:message>
+  <wsdl:message name="EncodeSoapIn">
+    <wsdl:part name="parameters" element="tns:Encode" />
+  </wsdl:message>
+  <wsdl:message name="EncodeSoapOut">
+    <wsdl:part name="parameters" element="tns:EncodeResponse" />
+  </wsdl:message>
+  <wsdl:message name="DecodeSoapIn">
+    <wsdl:part name="parameters" element="tns:Decode" />
+  </wsdl:message>
+  <wsdl:message name="DecodeSoapOut">
+    <wsdl:part name="parameters" element="tns:DecodeResponse" />
+  </wsdl:message>
+  <wsdl:message name="ExecuteSqlSoapIn">
+    <wsdl:part name="parameters" element="tns:ExecuteSql" />
+  </wsdl:message>
+  <wsdl:message name="ExecuteSqlSoapOut">
+    <wsdl:part name="parameters" element="tns:ExecuteSqlResponse" />
+  </wsdl:message>
+  <wsdl:message name="ExecuteSqlTransSoapIn">
+    <wsdl:part name="parameters" element="tns:ExecuteSqlTrans" />
+  </wsdl:message>
+  <wsdl:message name="ExecuteSqlTransSoapOut">
+    <wsdl:part name="parameters" element="tns:ExecuteSqlTransResponse" />
+  </wsdl:message>
+  <wsdl:message name="ExecutePrdSoapIn">
+    <wsdl:part name="parameters" element="tns:ExecutePrd" />
+  </wsdl:message>
+  <wsdl:message name="ExecutePrdSoapOut">
+    <wsdl:part name="parameters" element="tns:ExecutePrdResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetDataSetBySqlSoapIn">
+    <wsdl:part name="parameters" element="tns:GetDataSetBySql" />
+  </wsdl:message>
+  <wsdl:message name="GetDataSetBySqlSoapOut">
+    <wsdl:part name="parameters" element="tns:GetDataSetBySqlResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetDataTableBySqlSoapIn">
+    <wsdl:part name="parameters" element="tns:GetDataTableBySql" />
+  </wsdl:message>
+  <wsdl:message name="GetDataTableBySqlSoapOut">
+    <wsdl:part name="parameters" element="tns:GetDataTableBySqlResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetDataSetByPrdSoapIn">
+    <wsdl:part name="parameters" element="tns:GetDataSetByPrd" />
+  </wsdl:message>
+  <wsdl:message name="GetDataSetByPrdSoapOut">
+    <wsdl:part name="parameters" element="tns:GetDataSetByPrdResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetZipDataSetBySqlSoapIn">
+    <wsdl:part name="parameters" element="tns:GetZipDataSetBySql" />
+  </wsdl:message>
+  <wsdl:message name="GetZipDataSetBySqlSoapOut">
+    <wsdl:part name="parameters" element="tns:GetZipDataSetBySqlResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetZipDataSetByPrdSoapIn">
+    <wsdl:part name="parameters" element="tns:GetZipDataSetByPrd" />
+  </wsdl:message>
+  <wsdl:message name="GetZipDataSetByPrdSoapOut">
+    <wsdl:part name="parameters" element="tns:GetZipDataSetByPrdResponse" />
+  </wsdl:message>
+  <wsdl:message name="CheckLoginPassSoapIn">
+    <wsdl:part name="parameters" element="tns:CheckLoginPass" />
+  </wsdl:message>
+  <wsdl:message name="CheckLoginPassSoapOut">
+    <wsdl:part name="parameters" element="tns:CheckLoginPassResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ServiceSoap">
+    <wsdl:operation name="GetLicenseKey">
+      <wsdl:input message="tns:GetLicenseKeySoapIn" />
+      <wsdl:output message="tns:GetLicenseKeySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="MD5">
+      <wsdl:input message="tns:MD5SoapIn" />
+      <wsdl:output message="tns:MD5SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Encode">
+      <wsdl:input message="tns:EncodeSoapIn" />
+      <wsdl:output message="tns:EncodeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Decode">
+      <wsdl:input message="tns:DecodeSoapIn" />
+      <wsdl:output message="tns:DecodeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ExecuteSql">
+      <wsdl:input message="tns:ExecuteSqlSoapIn" />
+      <wsdl:output message="tns:ExecuteSqlSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ExecuteSqlTrans">
+      <wsdl:input message="tns:ExecuteSqlTransSoapIn" />
+      <wsdl:output message="tns:ExecuteSqlTransSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ExecutePrd">
+      <wsdl:input message="tns:ExecutePrdSoapIn" />
+      <wsdl:output message="tns:ExecutePrdSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDataSetBySql">
+      <wsdl:input message="tns:GetDataSetBySqlSoapIn" />
+      <wsdl:output message="tns:GetDataSetBySqlSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDataTableBySql">
+      <wsdl:input message="tns:GetDataTableBySqlSoapIn" />
+      <wsdl:output message="tns:GetDataTableBySqlSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDataSetByPrd">
+      <wsdl:input message="tns:GetDataSetByPrdSoapIn" />
+      <wsdl:output message="tns:GetDataSetByPrdSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetZipDataSetBySql">
+      <wsdl:input message="tns:GetZipDataSetBySqlSoapIn" />
+      <wsdl:output message="tns:GetZipDataSetBySqlSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetZipDataSetByPrd">
+      <wsdl:input message="tns:GetZipDataSetByPrdSoapIn" />
+      <wsdl:output message="tns:GetZipDataSetByPrdSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckLoginPass">
+      <wsdl:input message="tns:CheckLoginPassSoapIn" />
+      <wsdl:output message="tns:CheckLoginPassSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ServiceSoap" type="tns:ServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetLicenseKey">
+      <soap:operation soapAction="http://tempuri.org/GetLicenseKey" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MD5">
+      <soap:operation soapAction="http://tempuri.org/MD5" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Encode">
+      <soap:operation soapAction="http://tempuri.org/Encode" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Decode">
+      <soap:operation soapAction="http://tempuri.org/Decode" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ExecuteSql">
+      <soap:operation soapAction="http://tempuri.org/ExecuteSql" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ExecuteSqlTrans">
+      <soap:operation soapAction="http://tempuri.org/ExecuteSqlTrans" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ExecutePrd">
+      <soap:operation soapAction="http://tempuri.org/ExecutePrd" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDataSetBySql">
+      <soap:operation soapAction="http://tempuri.org/GetDataSetBySql" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDataTableBySql">
+      <soap:operation soapAction="http://tempuri.org/GetDataTableBySql" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDataSetByPrd">
+      <soap:operation soapAction="http://tempuri.org/GetDataSetByPrd" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetZipDataSetBySql">
+      <soap:operation soapAction="http://tempuri.org/GetZipDataSetBySql" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetZipDataSetByPrd">
+      <soap:operation soapAction="http://tempuri.org/GetZipDataSetByPrd" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckLoginPass">
+      <soap:operation soapAction="http://tempuri.org/CheckLoginPass" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ServiceSoap12" type="tns:ServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetLicenseKey">
+      <soap12:operation soapAction="http://tempuri.org/GetLicenseKey" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MD5">
+      <soap12:operation soapAction="http://tempuri.org/MD5" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Encode">
+      <soap12:operation soapAction="http://tempuri.org/Encode" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Decode">
+      <soap12:operation soapAction="http://tempuri.org/Decode" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ExecuteSql">
+      <soap12:operation soapAction="http://tempuri.org/ExecuteSql" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ExecuteSqlTrans">
+      <soap12:operation soapAction="http://tempuri.org/ExecuteSqlTrans" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ExecutePrd">
+      <soap12:operation soapAction="http://tempuri.org/ExecutePrd" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDataSetBySql">
+      <soap12:operation soapAction="http://tempuri.org/GetDataSetBySql" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDataTableBySql">
+      <soap12:operation soapAction="http://tempuri.org/GetDataTableBySql" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDataSetByPrd">
+      <soap12:operation soapAction="http://tempuri.org/GetDataSetByPrd" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetZipDataSetBySql">
+      <soap12:operation soapAction="http://tempuri.org/GetZipDataSetBySql" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetZipDataSetByPrd">
+      <soap12:operation soapAction="http://tempuri.org/GetZipDataSetByPrd" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckLoginPass">
+      <soap12:operation soapAction="http://tempuri.org/CheckLoginPass" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Service">
+    <wsdl:port name="ServiceSoap" binding="tns:ServiceSoap">
+      <soap:address location="http://10.165.3.102/hswebservice/commapi.asmx" />
+    </wsdl:port>
+    <wsdl:port name="ServiceSoap12" binding="tns:ServiceSoap12">
+      <soap12:address location="http://10.165.3.102/hswebservice/commapi.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
